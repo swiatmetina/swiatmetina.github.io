@@ -3,10 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Światmetina.pl</title>
-    <style>
-        /* Import czcionek z Google Fonts */
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;500&family=Orbitron:wght@400;700&display=swap');
 
         /* Podstawowe style */
         body {
