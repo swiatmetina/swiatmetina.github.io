@@ -13,20 +13,20 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #121212;
+            background-color: #121212; /* Ciemniejsze tło */
             color: #fff;
         }
 
         /* Stylowanie nagłówka */
         header {
             position: relative;
-            background-color: #1a1a1a;
+            background-color: #1a1a1a; /* Ciemniejszy nagłówek */
             color: white;
             text-align: center;
-            padding: 2rem 0;
-            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
-            border-bottom: 5px solid #000;
-            animation: slideDown 0.5s ease-in-out;
+            padding: 2rem 0; /* Zmniejszenie paddingu */
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8); /* Większy cień */
+            border-bottom: 5px solid #000; /* Czarna dolna linia */
+            animation: slideDown 0.5s ease-in-out; /* Animacja nagłówka */
         }
 
         @keyframes slideDown {
@@ -35,48 +35,48 @@
         }
 
         header h1 {
-            font-family: 'Poppins', sans-serif;
-            font-size: 2.5rem;
+            font-family: 'Poppins', sans-serif; /* Nowa czcionka Poppins */
+            font-size: 2.5rem; /* Zmniejszenie rozmiaru czcionki */
             margin: 0;
             text-transform: uppercase;
-            color: #ff4500;
-            background: linear-gradient(90deg, #ff4500, #ff6347);
+            color: #ff4500; /* Czerwony kolor */
+            background: linear-gradient(90deg, #ff4500, #ff6347); /* Gradient czerwony */
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            -webkit-text-fill-color: transparent; /* Efekt gradientu na tekście */
             letter-spacing: 2px;
-            text-shadow: 0px 5px 10px rgba(255, 69, 0, 0.5), 0 0 20px rgba(255, 0, 0, 0.7);
+            text-shadow: 0px 5px 10px rgba(255, 69, 0, 0.5), 0 0 20px rgba(255, 0, 0, 0.7); /* Blask */
         }
 
         header p {
-            font-size: 1.2rem;
-            color: #ccc;
-            margin-top: 1rem;
+            font-size: 1.2rem; /* Zmniejszenie rozmiaru czcionki dla podtytułu */
+            color: #ccc; /* Szary kolor dla podtytułu */
+            margin-top: 1rem; /* Odstęp od nagłówka */
         }
 
         /* Sekcja nawigacji w nagłówku */
         .nav {
             display: flex;
-            justify-content: center;
-            margin: 2rem 0;
+            justify-content: center; /* Wyrównanie do środka */
+            margin: 2rem 0; /* Zmniejszenie marginesu */
         }
 
         .nav a {
-            color: #ffffff;
+            color: #ffffff; /* Biały kolor */
             text-decoration: none;
-            font-size: 1.5rem;
-            font-family: 'Orbitron', sans-serif;
-            padding: 1rem 2rem;
-            margin: 0 40px;
-            background-color: rgba(255, 69, 0, 0.9);
-            border-radius: 20px;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
-            box-shadow: 0px 5px 10px rgba(255, 69, 0, 0.7);
+            font-size: 1.5rem; /* Zwiększenie rozmiaru czcionki */
+            font-family: 'Orbitron', sans-serif; /* Czcionka przypominająca forum */
+            padding: 1rem 2rem; /* Zwiększenie paddingu */
+            margin: 0 40px; /* Większy odstęp między przyciskami */
+            background-color: rgba(255, 69, 0, 0.9); /* Ognisty pomarańczowy */
+            border-radius: 20px; /* Mniejsze zaokrąglenie */
+            transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Dodano transform */
+            box-shadow: 0px 5px 10px rgba(255, 69, 0, 0.7); /* Cień dla przycisków */
         }
 
         .nav a:hover {
-            background-color: #ff6347;
-            box-shadow: 0px 10px 20px rgba(255, 69, 0, 0.9);
-            transform: translateY(-5px);
+            background-color: #ff6347; /* Jaśniejszy kolor przy hover */
+            box-shadow: 0px 10px 20px rgba(255, 69, 0, 0.9); /* Silniejszy cień przy hover */
+            transform: translateY(-5px); /* Efekt skoku */
         }
 
         /* Główna treść */
@@ -86,17 +86,17 @@
         }
 
         .content h2 {
-            font-size: 2rem;
-            color: #ff4500;
-            background: linear-gradient(90deg, #ff4500, #ff6347);
+            font-size: 2rem; /* Zmniejszenie rozmiaru czcionki */
+            color: #ff4500; /* Czerwony nagłówek */
+            background: linear-gradient(90deg, #ff4500, #ff6347); /* Gradient czerwony */
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-shadow: 0px 5px 10px rgba(255, 69, 0, 0.5), 0 0 20px rgba(255, 0, 0, 0.7);
+            -webkit-text-fill-color: transparent; /* Efekt gradientu na tekście */
+            text-shadow: 0px 5px 10px rgba(255, 69, 0, 0.5), 0 0 20px rgba(255, 0, 0, 0.7); /* Blask */
         }
 
         .content p {
-            font-size: 1.1rem;
-            color: #ddd;
+            font-size: 1.1rem; /* Zmniejszenie rozmiaru czcionki */
+            color: #ddd; /* Lżejszy kolor dla paragrafów */
         }
 
         /* Sekcja wideo */
@@ -109,16 +109,16 @@
             width: 70%;
             height: 400px;
             border-radius: 12px;
-            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7); /* Cień dla filmików */
         }
 
         /* Stopka */
         footer {
             background-color: #1a1a1a;
-            color: #ff4500;
+            color: #ff4500; /* Czerwony kolor */
             padding: 2rem;
             text-align: center;
-            box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.5); /* Cień dla stopki */
         }
 
         /* Zaokrąglony dół dla nagłówka */
@@ -134,14 +134,14 @@
 
         /* Ramka dla aktualizacji */
         .update-box {
-            background-color: #1a1a1a;
-            border: 2px solid #ff4500;
-            border-radius: 10px;
-            padding: 2rem;
-            margin: 1.5rem auto;
-            width: 80%;
-            max-width: 800px;
-            animation: zoomIn 0.5s ease-in-out;
+            background-color: #1a1a1a; /* Ciemny kolor ramki */
+            border: 2px solid #ff4500; /* Czerwona ramka */
+            border-radius: 10px; /* Zaokrąglenie ramki */
+            padding: 2rem; /* Padding wewnętrzny */
+            margin: 1.5rem auto; /* Margines do centrowania */
+            width: 80%; /* Szerokość ramki */
+            max-width: 800px; /* Maksymalna szerokość */
+            animation: zoomIn 0.5s ease-in-out; /* Animacja dla sekcji aktualizacji */
         }
 
         @keyframes zoomIn {
@@ -150,66 +150,66 @@
         }
 
         .reaction-buttons {
-            margin-top: 1rem;
+            margin-top: 1rem; /* Odstęp od treści aktualizacji */
         }
 
         .reaction-button {
-            background-color: #ff4500;
+            background-color: #ff4500; /* Ognisty pomarańczowy */
             color: white;
             border: none;
             border-radius: 5px;
             padding: 0.5rem 1rem;
             cursor: pointer;
-            margin: 0 0.5rem;
+            margin: 0 0.5rem; /* Odstęp między przyciskami */
             transition: background-color 0.3s ease, transform 0.3s ease;
         }
 
         .reaction-button:hover {
-            background-color: #ff6347;
-            transform: translateY(-3px);
+            background-color: #ff6347; /* Jaśniejszy kolor przy hover */
+            transform: translateY(-3px); /* Efekt skoku */
         }
 
         .reaction-count {
-            margin-left: 0.5rem;
+            margin-left: 0.5rem; /* Odstęp dla ilości reakcji */
         }
 
         .contact-section form {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: center; /* Wyrównanie do środka */
         }
 
         .contact-section input, .contact-section textarea {
-            width: 80%;
-            padding: 1rem;
-            margin: 0.5rem 0;
-            border: 2px solid #ff4500;
-            border-radius: 5px;
-            background-color: #2a2a2a;
-            color: white;
+            width: 80%; /* Szerokość inputów */
+            padding: 1rem; /* Padding wewnętrzny */
+            margin: 0.5rem 0; /* Marginesy dla inputów */
+            border: 2px solid #ff4500; /* Czerwona ramka */
+            border-radius: 5px; /* Zaokrąglenie */
+            background-color: #2a2a2a; /* Ciemniejsze tło */
+            color: white; /* Biały kolor tekstu */
         }
 
         .contact-section button {
-            background-color: #ff4500;
+            background-color: #ff4500; /* Ognisty pomarańczowy */
             color: white;
             border: none;
             border-radius: 5px;
-            padding: 1rem 2rem;
+            padding: 1rem 2rem; /* Padding dla przycisku */
             cursor: pointer;
-            margin-top: 1rem;
+            margin-top: 1rem; /* Odstęp górny */
             transition: background-color 0.3s ease, transform 0.3s ease;
         }
 
         .contact-section button:hover {
-            background-color: #ff6347;
-            transform: translateY(-3px);
+            background-color: #ff6347; /* Jaśniejszy kolor przy hover */
+            transform: translateY(-3px); /* Efekt skoku */
         }
 
     </style>
 </head>
 <body>
     <header>
-        <h1>Światmetina.pl</h1>
+        <h1>Śwaitmetina.pl</h1>
         <p>Najświeższe informacje o Metin2</p>
         <div class="nav">
             <a href="#news">Aktualności</a>
@@ -217,7 +217,7 @@
             <a href="#partners">Partnerzy</a>
             <a href="#contact">Kontakt</a>
         </div>
-        <div class="wave"></div>
+        <div class="wave"></div> <!-- Zaokrąglony dół dla nagłówka -->
     </header>
 
     <div class="content">
@@ -233,17 +233,63 @@
             </div>
         </div>
         
+        <div class="update-box">
+            <h3>Wydarzenie Halloween!</h3>
+            <p>Dołącz do nas na specjalnym wydarzeniu Halloween. Zbieraj unikalne przedmioty i nagrody!</p>
+            <div class="reaction-buttons">
+                <button class="reaction-button">👍</button>
+                <span class="reaction-count">7</span>
+                <button class="reaction-button">❤️</button>
+                <span class="reaction-count">2</span>
+            </div>
+        </div>
+
+        <div class="update-box">
+            <h3>Nowe postacie w grze!</h3>
+            <p>Wprowadziliśmy nowe postacie, które wzbogacą Twoje doświadczenie w Metin2. Sprawdź je teraz!</p>
+            <div class="reaction-buttons">
+                <button class="reaction-button">👍</button>
+                <span class="reaction-count">10</span>
+                <button class="reaction-button">❤️</button>
+                <span class="reaction-count">3</span>
+            </div>
+        </div>
+
+        <div class="update-box">
+            <h3>Poprawki błędów!</h3>
+            <p>Wprowadziliśmy poprawki dla kilku znanych błędów. Graj bez problemów!</p>
+            <div class="reaction-buttons">
+                <button class="reaction-button">👍</button>
+                <span class="reaction-count">6</span>
+                <button class="reaction-button">❤️</button>
+                <span class="reaction-count">1</span>
+            </div>
+        </div>
+
         <div class="video-section">
             <h2>Filmy</h2>
             <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <h2 id="support">Wsparcie</h2>
-        <p>Aby uzyskać pomoc, skontaktuj się z nami przez formularz poniżej.</p>
+        <p>Skontaktuj się z nami, jeśli potrzebujesz pomocy.</p>
+
+        <h2 id="partners">Partnerzy</h2>
+        <p>Nasze zaufane partnerzy.</p>
+
+        <h2 id="contact">Kontakt</h2>
+        <div class="contact-section">
+            <form>
+                <input type="text" placeholder="Twoje imię" required>
+                <input type="email" placeholder="Twój e-mail" required>
+                <textarea placeholder="Twoja wiadomość" required></textarea>
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
     </div>
 
     <footer>
-        <p>&copy; 2024 Światmetina.pl - Wszystkie prawa zastrzeżone</p>
+        <p>&copy; 2024 Światmetina. Wszystkie prawa zastrzeżone.</p>
     </footer>
 </body>
 </html>
